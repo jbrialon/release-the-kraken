@@ -1,4 +1,4 @@
-# Shader Playground
+# 🐙
 
 ## Setup
 
