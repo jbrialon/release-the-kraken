@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  overflow: hidden;
+  background: #1e2f21;
+  width: 100vw;
+  height: 100vh;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  outline: none;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 2vw;
+  right: 2vw;
+  transform: translateY(-50%);
+  color: #dcd6a6;
+  font-family: "Libre Baskerville", serif;
+  pointer-events: none;
+  font-size: 7vw;
+  line-height: 0.825;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.55vw;
+  text-transform: uppercase;
+}
+
+.text-front {
+  z-index: 20;
+  -moz-text-stroke-color: #dcd6a6;
+  -webkit-text-stroke-color: #dcd6a6;
+  -moz-text-stroke-width: 0.085vw;
+  -webkit-text-stroke-width: 0.085vw;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-back {
+  z-index: 1;
+}
